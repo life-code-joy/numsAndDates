@@ -89,5 +89,5 @@ if (employeeNames.includes('spaghettibob')) clearTimeout(employeeListTimer);
 setInterval(function () {
   const now = new Date();
 
-  // console.log(now.getUTCMinutes());
-}, 3000);
+  // console.log(now.getSeconds(), now.getMilliseconds());
+}, 1000);
